@@ -1,0 +1,7 @@
+div > hijo directo
+
+div + hermanos adyancente
+
+div " todos los hermanos derechos
+
+div:*pseudoClase (tipo hover, click(active), maker,focus, etc)

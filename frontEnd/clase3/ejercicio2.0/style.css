@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    color: white;
+    scrollbar-width: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+
+.headIzq{
+    margin-left: 1%;
+}
+
+.headDer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 1%;
+}
+
+.encabezado{
+    color: black;
+    margin:4px;
+}
+
+.logo{
+    background-color:darkblue;
+    padding-left: 10%;
+    width: 120px;
+    border: 1px solid black;
+    margin: 4px;
+}
+
+.menu1{
+    width: 50%;
+    margin: 4px;
+    padding-left: 10%;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.menu2{
+    width: 600px;
+    margin: 4px;
+    padding-left: 1%;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+
+/* comienzo de el código referente al cuerpo*/
+
+.cuerpo{
+    height: 80%;
+}
+
+.arriba, .abajo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloques{
+    border-radius: 10px;
+    width: 32%;
+    height: 260px;
+    margin-bottom: 18px;
+    background-color:#2f2f2f ;
+    border: 2px solid black;
+}
+
+.cuerpo p {
+    padding: 10px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+#bloque2{
+    background-color: darkcyan;
+}
+#bloque3{
+    background-color: orange;
+}
+#bloque4{
+    width: 66%;
+    background-color: darkgreen;
+}
+#bloque5{
+    background-color:saddlebrown;
+}
+
+
+/* comienzo del codeo del footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: cyan;
+}
+
+.divPie p{
+    color: black;
+    margin-left: 5px;
+}
+
+.elemento{
+    color: white;
+    padding: 5px;
+    padding-right: 20px;
+    margin-right: 10px;
+    align-self: flex-end;
+    background-color: darkblue;
+}
