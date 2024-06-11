@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(224, 96, 96);
+}
+
+.header p,.div p{
+    padding-left: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    height: 400px;
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 400px;
+    background-color:blueviolet;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(224, 96, 96);
+}
