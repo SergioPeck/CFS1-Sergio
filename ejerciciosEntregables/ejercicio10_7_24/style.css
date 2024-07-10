@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    max-height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    overscroll-behavior:unset;
+}
+#lista-dnis{
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    gap: 20px;
+}
+.hover-ojo:hover{
+    opacity: .5;
+}

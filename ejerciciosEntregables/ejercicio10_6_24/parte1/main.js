@@ -1,5 +1,5 @@
 let btn=document.getElementById("agregar-tarea").addEventListener("click",function(e){
-    let tarea=document.getElementById("input-texto")    //traigo el texto del input
+    let tarea=document.getElementById("input-texto")    //traigo el input
     let lista_items=document.createElement("li")        //creo un li
     let nueva_tarea=document.createElement("p")         //creo un p
 
